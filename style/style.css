@@ -4,6 +4,20 @@
     box-sizing: border-box;
 }
 
+body{
+    font-size: 62.5%;
+}
+
+:root{
+    --color1:#161825;
+    --color2:#000;
+}
+
 a {
     text-decoration: none;
+}
+
+
+.header img{
+    width: 6rem;
 }
