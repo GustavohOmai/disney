@@ -9,29 +9,31 @@
     src: url(../Avenir-Heavy/Avenir-Heavy.ttf);
 }
 
-body{
+body {
     font-size: 62.5%;
     font-family: "disney";
 }
 
-:root{
-    --color1:#161825;
-    --color2:#000;
-    --color3:#fff;
+:root {
+    --color1: #161825;
+    --color2: #000;
+    --color3: #fff;
+    --color4: #757575;
 }
 
 a {
     text-decoration: none;
 }
 
-.header img{
+.header img {
     width: 5.3rem;
     margin-right: 2rem;
+    margin-left: 1.2rem;
 }
 
-header{
-    background: rgb(0,0,0);
-    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(22,24,37,1) 100%);
+header {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(22, 24, 37, 1) 100%);
     display: flex;
     align-items: center;
     width: 100%;
@@ -40,51 +42,183 @@ header{
     top: 0;
     left: 0;
     height: 72px;
+    justify-content: space-between;
 }
 
-.header{
+.header {
     display: flex;
     align-items: center;
-<<<<<<< HEAD
     margin: 0 2rem 0 2rem;
-=======
     justify-content: space-between;
     margin: 0 1rem 0 1rem;
-    
+
 }
 
-.header1{
+.header1 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 1rem 0 1rem;
-    
+    margin: 0 0rem 0 1rem;
+    z-index: 3;
+
 }
 
-.header1 img{
+.header1 img {
     width: 3rem;
     margin: 0 1rem 0 2rem;
->>>>>>> 1c54b8f9dcbaa793f709cdba06ae966f28d0a2eb
 }
 
-li a{
-    font-size: .95rem ;
+li a {
+    font-size: .95rem;
     margin: 0 1.5rem 0 1.5rem;
     color: var(--color3);
 }
 
-<<<<<<< HEAD
-.icon{
+.icon {
     font-size: .8rem;
     margin-right: .5rem;
 }
 
-.background{
-    background: rgb(22,24,37);
-    background: radial-gradient(circle, rgba(22,24,37,1) 0%, rgba(0,0,0,1) 100%);
+.background {
+    background: rgb(22, 24, 37);
+    background: radial-gradient(circle, rgba(22, 24, 37, 1) 0%, rgba(0, 0, 0, 1) 100%);
     padding-top: 4.5rem;
 }
-=======
 
+p {
+    color: white;
+}
 
->>>>>>> 1c54b8f9dcbaa793f709cdba06ae966f28d0a2eb
+span {
+    display: inline-block;
+    position: relative;
+    color: white;
+}
+
+span:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom left;
+    transition: transform 0.25s ease-out
+
+}
+
+span:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.sandwich {
+    position: absolute;
+    z-index: 3;
+    right: 10px;
+    cursor: pointer;
+    display: block;
+    top: 13px;
+}
+
+.nav-link {
+    color: var(--color4);
+}
+
+.nav-link1 {
+    color: var(--color4);
+    
+}
+
+.nav-link2 {
+    border-top: var(--color4) 1px solid;
+    color: var(--color4);
+    margin-top: 55px;
+    padding-top: 10px;
+    text-align: center;
+    
+}
+
+.nav-link2:hover {
+    color: white;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.nav-link1:hover {
+    color: white;
+}
+
+.navbar {
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    z-index: 2;
+    
+}
+
+.nav-menu {
+     display: flex;
+    justify-content: left;
+    gap: 0px;
+    position: fixed;
+    right: 0px;
+    top: -100%;
+    flex-direction: column;
+    text-align: left;
+    background-color: rgb(19, 19, 19);
+    border-radius: 10px;
+    border: var(--color4) 1px solid;
+    width: 19%;
+    height: 60%;
+    transition: .3s;
+}
+
+.nav-menu.active {
+    top: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.Avatar {
+    margin-right: 3px;
+    color: white;
+    opacity: 0.9;
+    font-size: .9rem;
+    position: fixed;
+    z-index: 2;
+    top: 30px;
+    right: 83px;
+    font-weight: lighter;
+
+    
+}
+
+.nav-menu img{
+    width: 3rem;
+    margin: 0 1rem 0 0;
+}
+
+.nav-menu a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-item {
+    margin: 14px 0;
+}
+
+.perfil {
+    display: flex;
+    flex-direction: row;   
+    text-align: center;
+    justify-content: flex-start;
+}
