@@ -7,3 +7,19 @@
 a {
     text-decoration: none;
 }
+
+header {
+    width: 100%;
+    height: 72px;
+    background-color: black;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+}
+
+.headernav {
+    color: white;
+    font-size: 16px;
+    margin: 0px 10px;
+}
+
