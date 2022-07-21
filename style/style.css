@@ -4,20 +4,55 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: disney;
+    src: url(../Avenir-Heavy/Avenir-Heavy.ttf);
+}
+
 body{
     font-size: 62.5%;
+    font-family: "disney";
 }
 
 :root{
     --color1:#161825;
     --color2:#000;
+    --color3:#fff;
 }
 
 a {
     text-decoration: none;
 }
 
-
 .header img{
-    width: 6rem;
+    width: 5.3rem;
+    margin: 0 1rem 0 2rem;
 }
+
+header{
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(22,24,37,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 1rem 0 1rem;
+}
+
+li a{
+    font-size: .9rem ;
+    margin: 0 1rem 0 1rem;
+    color: var(--color3);
+}
+
+
+

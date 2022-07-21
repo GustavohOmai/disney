@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Avenir';
+    src: local('Avenir Heavy'), local('Avenir-Heavy'),
+        url('Avenir-Heavy.woff2') format('woff2'),
+        url('Avenir-Heavy.woff') format('woff'),
+        url('Avenir-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+  }
