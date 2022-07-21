@@ -39,12 +39,32 @@ header{
     position: fixed;
     top: 0;
     left: 0;
+    height: 72px;
 }
 
 .header{
     display: flex;
     align-items: center;
+<<<<<<< HEAD
     margin: 0 2rem 0 2rem;
+=======
+    justify-content: space-between;
+    margin: 0 1rem 0 1rem;
+    
+}
+
+.header1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 1rem 0 1rem;
+    
+}
+
+.header1 img{
+    width: 3rem;
+    margin: 0 1rem 0 2rem;
+>>>>>>> 1c54b8f9dcbaa793f709cdba06ae966f28d0a2eb
 }
 
 li a{
@@ -53,6 +73,7 @@ li a{
     color: var(--color3);
 }
 
+<<<<<<< HEAD
 .icon{
     font-size: .8rem;
     margin-right: .5rem;
@@ -63,3 +84,7 @@ li a{
     background: radial-gradient(circle, rgba(22,24,37,1) 0%, rgba(0,0,0,1) 100%);
     padding-top: 4.5rem;
 }
+=======
+
+
+>>>>>>> 1c54b8f9dcbaa793f709cdba06ae966f28d0a2eb
