@@ -16,17 +16,30 @@ document.querySelectorAll(".nav-link2").forEach(n => n.addEventListener("click",
 }))
 
 
-$('.slider').slick({
-    centerMode: true,
-    centerPadding: '50px',
-    slidesToShow: 1,
-    autoplay: true,
-    autplaySpeed: 3000,
-    dots: true,
-    dotsClass: 'slick-dots',
-    infinite: true,
-    arrow: true,
-    });
+      $('.slider').slick({
+      centerMode: true,
+      centerPadding: '50px',
+      slidesToShow: 1,
+      autoplay: true,
+      autplaySpeed: 10000,
+      dots: true,
+      dotsClass: 'slick-dots',
+      infinite: true,
+      zIndex: 0,
+      arrow: true,
+      
+      });
+    
+
+    
+        $('.foryoutoo').slick({
+        infinite: true,
+        slidesToShow: 4,
+        slidesToScroll: 4,
+        });
+    
 
 }
+
+
 
