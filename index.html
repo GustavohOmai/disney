@@ -12,9 +12,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="./slick-1.8.1/slick/slick-theme.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+
+
+    <script src="./script.js"></script>
 </head>
 
 <body>
+    
     <header>
         <div class="header"><img src="./images/logo-disney+.png" alt="">
             <nav>
@@ -51,8 +59,43 @@
            </nav>
         </div>
     </header>
-    <script src="./script.js"></script>
+
     <div class="background">
+    
+    <div class="container">
+        
+        <div class="slider">
+        
+        <div><img src="./images/divertidamente-banner.jpg" alt=""></div>
+        <div><img src="./images/drestranho-banner.jpg" alt=""></div>
+        <div><img src="./images/msmarvelbanner.jpg" alt=""></div>
+        <div><img src="./images/nemo-banner.jpg" alt=""></div>
+        <div><img src="./images/toy-story-banner.png" alt=""></div>
+        <div><img src="./images/up-banner.jpg" alt=""></div>
+        
+        </div>
     </div>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script type="text/javascript">
+      $('.slider').slick({
+      centerMode: true,
+      centerPadding: '50px',
+      slidesToShow: 1,
+      autoplay: true,
+      autplaySpeed: 3000,
+      dots: true,
+      dotsClass: 'slick-dots',
+      infinite: true,
+      zIndex: 1,
+      arrow: true,
+      
+      });
+    </script>
 </body>
 </html>

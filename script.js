@@ -1,3 +1,5 @@
+window.onload = function() {
+
 const sandwich = document.querySelector(".sandwich");
 const navMenu = document.querySelector(".nav-menu");
 
@@ -12,3 +14,6 @@ document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", 
 document.querySelectorAll(".nav-link2").forEach(n => n.addEventListener("click", () => {
     navMenu.classList.remove("active");
 }))
+
+}
+
