@@ -199,12 +199,12 @@ ul {
     font-size: .9rem;
     position: fixed;
     z-index: 2;
-    top: 30px;
     right: 83px;
     font-weight: lighter;
-
-    
+    margin-top: 1.7rem;
 }
+
+
 
 .nav-menu img{
     width: 3rem;
