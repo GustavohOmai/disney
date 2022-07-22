@@ -18,6 +18,9 @@
     <link rel="stylesheet" href="./slick-1.8.1/slick/slick-theme.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 
 
     <script src="./script.js"></script>
@@ -26,7 +29,7 @@
 <body>
     
     <header>
-        <div class="header"><img src="./images/logo-disney+.png" alt="">
+        <div class="header"><a href=""><img src="./images/logo-disney+.png" alt=""></a>
             <nav>
                 <li>
                     <a href="" class="headernav"><i class="fa-solid fa-house icon"></i> <span>INÍCIO</span> </a>
@@ -46,16 +49,16 @@
 
             <nav class="navbar">
 
-                <ul class="nav-menu" id="teste1">
+                <ul class="nav-menu">
                     <div class="Avatar">Perfil 1</div>
                     <li class="nav-item"><a href="#" class="nav-link2"><img src="./images/Raya-Avatar-Disney-Plus.png" alt="" class="icon1"> Perfil 2</a></li>
                     <li class="nav-item"><a href="#" class="nav-link"> <img src="./images/plus button.png.opdownload" alt="" class="icon1"> Adicionar Perfil</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Editar Perfis</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Configurações do Aplicativo</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Ajuda</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Sair</a></li>
+                    <li class="nav-item"><a href="https://www.disneyplus.com/pt-br" class="nav-link">Sair</a></li>
                 </ul>
-                <div class="sandwich"><img src="./images/Moon-Knight-Profile-Avatar.webp" alt="" id="teste"></div>
+                <div class="sandwich"><img src="./images/Moon-Knight-Profile-Avatar.webp" alt=""></div>
             </nav>
         </div>
     </header>
@@ -85,28 +88,44 @@
             <div class="natgeo"><a href=""><img src="Images/natgeo.png" alt=""></a></div>
         </div>
 
+    
+
+    <div class="foryou">
+        
+            <h1 class="fytitle">Recomendado para Você</h1>
+            <div class="foryoutoo">
+            <div><img src="./slider2/dr estranho.jpg" alt=""></div>
+            <div><img src="./slider2/eternos.jpg" alt=""></div>
+            <div><img src="./slider2/loki.jpg" alt=""></div>
+            <div><img src="./slider2/moonknight.jpg" alt=""></div>
+            <div><img src="./slider2/msmarvel.jpg" alt=""></div>
+            <div><img src="./slider2/obiwan.jpg" alt=""></div>
+            <div><img src="./slider2/shangchi.jpg" alt=""></div>
+            <div><img src="./slider2/wanda.jpg" alt=""></div>
+        </div>
+    </div>
+
+    <div class="foryou">
+        
+            <h1 class="fytitle">Em Breve</h1>
+            <div class="foryoutoo">
+            <div><img src="./images/slider3/abracadabra2.jpg" alt=""></div>
+            <div><img src="./images/slider3/hsm.jpg" alt=""></div>
+            <div><img src="./images/slider3/hulka.jpg" alt=""></div>
+            <div><img src="./images/slider3/starwars.jpg" alt=""></div>
+            <div><img src="./images/slider3/lego.jpg" alt=""></div>
+            <div><img src="./images/slider3/lightyear.jpg" alt=""></div>
+            <div><img src="./images/slider3/pinoquio.jpg" alt=""></div>
+            <div><img src="./images/slider3/starwars2.jpg" alt=""></div>
+        </div>
+    </div>
+
     </div>
 
 
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-    <script type="text/javascript">
-      $('.slider').slick({
-      centerMode: true,
-      centerPadding: '50px',
-      slidesToShow: 1,
-      autoplay: true,
-      autplaySpeed: 3000,
-      dots: true,
-      dotsClass: 'slick-dots',
-      infinite: true,
-      zIndex: 0,
-      arrow: true,
-      
-      });
-    </script>
+    
+    
     
 
 </body>

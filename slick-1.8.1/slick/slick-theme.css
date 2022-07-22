@@ -58,6 +58,8 @@
 {
     opacity: 1;
 }
+
+
 .slick-prev.slick-disabled:before,
 .slick-next.slick-disabled:before
 {
@@ -68,11 +70,12 @@
 .slick-next:before
 {
     font-family: 'slick';
-    font-size: 20px;
+    font-size: 40px;
     line-height: 1;
 
-    opacity: .75;
-    color: white;
+    color: gray;
+    opacity: 0.6;
+    background-color: transparent;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
