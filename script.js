@@ -53,6 +53,7 @@ document.querySelectorAll(".nav-link2").forEach(n => n.addEventListener("click",
         infinite: true,
         slidesToShow: 4,
         slidesToScroll: 4,
+        prevArrow: false,
         });
 
     

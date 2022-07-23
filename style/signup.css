@@ -107,6 +107,10 @@ a {
     top: 0.7rem;
 }
 
+.btnheadershow:hover {
+    background-color: rgb(1, 108, 249);
+}
+
 .headerpage {
     width: 10%;
     display: flex;
