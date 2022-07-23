@@ -1,5 +1,22 @@
 window.onload = function() {
 
+window.onscroll = function() {
+        scroll();
+    }
+
+    function scroll() {
+        if(document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+            document.getElementById("header").style.background ="rgb(22, 24, 37)";
+            document.getElementById("header").style.background = "linear-gradient(rgba(22, 24, 37, 1) 0%, rgba(0, 0, 0, 1) 100%)";
+        }
+        else {
+            document.getElementById("header").style.background= "transparent";
+        }
+    }
+
+
+
+
 const sandwich = document.querySelector(".sandwich");
 const navMenu = document.querySelector(".nav-menu");
 
@@ -37,9 +54,13 @@ document.querySelectorAll(".nav-link2").forEach(n => n.addEventListener("click",
         slidesToShow: 4,
         slidesToScroll: 4,
         });
-    
 
+    
 }
+
+
+
+    
 
 
 

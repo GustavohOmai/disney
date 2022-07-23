@@ -1,4 +1,6 @@
-
+html {
+    scroll-behavior: smooth;
+}
 
 * {
     padding: 0;
@@ -36,9 +38,7 @@ a {
     margin-left: 1.2rem;
 }
 
-header {
-    background: rgb(22, 24, 37);
-    background: linear-gradient(rgba(22, 24, 37, 1) 0%, rgba(0, 0, 0, 1) 100%);
+#header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -50,6 +50,7 @@ header {
     height: 72px;
     justify-content: space-between;
     z-index: 3;
+    transition: .5s;
 }
 
 .header {
